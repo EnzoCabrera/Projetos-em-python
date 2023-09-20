@@ -1,6 +1,7 @@
 import random
 
 
+
 class ChuteONumero:
     def __init__(self):
         self.valor_aleatorio = 0
