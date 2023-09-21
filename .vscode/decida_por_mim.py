@@ -21,11 +21,10 @@ class DecidaPorMim:
         ]
 
         self.janela = sg.Windoww("Decida por mim!", layout=layout)
-        while True
+        while True:
             self.eventos, self.valores = self.janela.Read()
             if self.eventos == "Decida por mim":
                 print(random.choice(self.respostas))
-              
 
 
 decida = DecidaPorMim()
